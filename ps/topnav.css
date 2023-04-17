@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250,249,232);
+    font-family: Arial, sans-serif;
+    margin-left: 300px;
+}
+
+.topnav {
+    background-color: rgb(255, 237, 207);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .search-bar {
+    background-color: rgb(217, 217, 216);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex: 1;
+    margin-left: 100px;
+    padding: 0 20px;
+    margin-right: 0;
+}
+
+nav .search-bar input {
+    border: none;
+    background-color: transparent;
+    flex: 1;
+    margin-left: 10px;
+}
+
+nav .search-bar select {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .search-icon {
+    background-color: rgb(217, 217, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+nav .profile-icon {
+    background-color: rgb(217, 217, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav .white-line {
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+nav .search-bar input:focus {
+    outline: none;
+}
+
+nav .search-bar input::placeholder {
+    color: #888;
+}
+
+nav .search-button {
+    background-color: rgb(217, 217, 216);
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+}
+
+nav .search-button:hover {
+    background-color: rgb(244, 197, 56);
+}
+nav .profile-icon:hover {
+    background-color: rgb(244, 197, 56);
+}
